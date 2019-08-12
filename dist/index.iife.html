@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en-gb">
+<head>
+	<meta charset='utf8'>
+	<meta name="description" content="JSE CAPTCHA DEMO Page">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>JSE Add:: Demo</title>
+
+
+	<!-- JSE Captcha Script -->
+	<script src='jseadtech.iife.min.js'></script>
+	<!-- xJSE Captcha Script -->
+
+	<style>
+		#add {margin:20px;}
+	</style>
+</head>
+
+<body>
+	<!-- Captcha target -->
+	<div id="add"></div>
+	<!-- xCaptcha target -->
+
+	<!-- Init Captcha -->
+	<script>
+		let JSEadtech = new Adtech_components({
+			target: document.getElementById('add'),
+			props: {
+			}
+		});
+		
+	</script>
+	<!-- xInit Captcha -->
+</body>
+</html>
